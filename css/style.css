@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    color: #4e4e4e;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/intro.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    
+}
+.navc a{
+    color: white;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+    padding: 20px;
+}
+
+.navicon{ color: white;
+
+}
+.navbar-brand:hover{
+    color: white;
+}
+.hc h1{
+    font-size: 4rem;
+}
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.bgc{
+    background-color: #cde1f8;
+}
+.bar1{
+    width: 85%;
+   
+}
+.bar2{
+    width: 90%;
+
+}
+.label1{
+    position: relative;
+    font-size: 2rem;
+}
+.label1::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+.contant{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.title-a {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.ser-box{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    margin-bottom: 3rem;
+}
+.ser-box:hover .ico-circle {
+    transition: all 0.8s;
+    color: #fff;
+    background-color: #0078ff;
+    
+  }
+.ser-box .ser-icon {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+.ico-circle {
+    font-size: 3rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    padding-top: 27px;
+}
+.ser-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-layer {
+    position: relative;
+    padding: 8rem 0;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: #0078ff;
+}
+.work-box{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.box-icon .ico-circle {
+    height: 60px;
+    width: 60px;
+    padding-top: 14PX;
+    box-shadow: 0 0 0 10px #ffffff;
+    font-size: 2rem;
+}
+.pbox{
+    margin-top: 2rem;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+.p-image{
+    overflow: hidden; 
+}
+.p-image img{
+    transition: all 1s;
+}
+.p-image:hover img {
+    transform: scale(1.3);
+}
+.card-blog{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+
+}
+.head-card{
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.cardtt{
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+.fimage{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+.contact-box{
+    padding: 3rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.line2{
+    float: left;
+    width: 20%;
+    height: 5px;
+    background-color: #0078ff;
+    margin-bottom: 22;
+}
+.btn{
+    border-radius: 5rem;
+    padding: 0.9rem 2.3rem;
+    font-size: 1.2rem;
+}
+.info ul{
+    list-style: none;
+    line-height: 2;
+    padding-left: 0;
+}
+.info ul span{
+    
+    color: #0078ff;
+    margin-right: 10px;
+}
+.social .ico-circle {
+    padding-top: 7px;
+    color: #1e1e1e;
+    height: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    transition: all 500ms ;
+}
+.social .ico-circle:hover{
+    background-color: #0078ff;
+    color: white;
+}
+
+
+
+
+
+
+  
+
